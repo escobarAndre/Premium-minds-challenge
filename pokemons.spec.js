@@ -1,4 +1,4 @@
-import { catchPokemon, getMovement } from './pokemons.js'
+import { catchPokemon, getMovement, getDirections } from './pokemons.js'
 
 describe('catchPokemon', () => {
     it('should return the correct number of captured pokemons', () => {
@@ -52,3 +52,29 @@ describe('catchPokemon', () => {
       expect(() => getMovement(currentPosition, direction)).toThrow()
     })
   })
+
+describe('getDirections', () => {
+  it('should return the correct array of directions', () => {
+    const movement = 'nseo'
+    const expected = ['N', 'S', 'E', 'O']
+    expect(getDirections(movement)).toEqual(expected)
+  })
+
+  it('should handle an empty input', () => {
+    const movement = ''
+    const expected = []
+    expect(getDirections(movement)).toEqual(expected)
+  })
+
+  it('should handle invalid inputs', () => {
+    const movement = 'xyz'
+    const expected = []
+    expect(getDirections(movement)).toEqual(expected)
+  })
+
+  it('should handle mixed case inputs', () => {
+    const movement = 'NSeo'
+    const expected = ['N', 'S', 'E', 'O']
+    expect(getDirections(movement)).toEqual(expected)
+  })
+})

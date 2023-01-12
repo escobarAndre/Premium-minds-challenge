@@ -28,7 +28,7 @@ export function getMovement (currentPosition, direction) {
  * @returns Filtered array of directions, based on accepted directions
  */
 
-function getDirections (movement) {
+export function getDirections (movement) {
 	return movement.split('').map(d => d.toUpperCase()).filter(d => acceptedDirections.includes(d))
 }
 
