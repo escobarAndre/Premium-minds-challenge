@@ -28,27 +28,27 @@ Para usar este projeto, você precisará ter Node.js instalado em sua máquina.
 
 Clone este repositório e instale as dependências executando o seguinte comando no seu terminal:
 
-yarn:
+**yarn**:
 <pre><code>yarn</code></pre>
-
-npm:
+**
+npm**:
 <pre><code>npm install</code></pre>
 
 Em seguida, execute o comando abaixo para rodar o script:
 
-yarn:
+**yarn**:
 <pre><code>yarn start</code></pre>
 
-npm:
+**npm**:
 <pre><code>npm run start</code></pre>
 
 ### Testes
 Este projeto inclui testes automatizados escritos com Jest. Você pode executá-los com o seguinte comando:
 
-yarn:
+**yarn**:
 <pre><code>yarn test</code></pre>
 
-npm:
+**npm**:
 <pre><code>npm run test</code></pre>
 
 ### Licença
