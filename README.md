@@ -30,8 +30,7 @@ Clone este repositório e instale as dependências executando o seguinte comando
 
 **yarn**:
 <pre><code>yarn</code></pre>
-**
-npm**:
+**npm**:
 <pre><code>npm install</code></pre>
 
 Em seguida, execute o comando abaixo para rodar o script:
@@ -52,4 +51,4 @@ Este projeto inclui testes automatizados escritos com Jest. Você pode executá-
 <pre><code>npm run test</code></pre>
 
 ### Licença
-Este projeto está licenciado sob a licença ISC. Consulte o arquivo LICENSE para obter mais informações.
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais informações.
