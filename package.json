@@ -6,10 +6,10 @@
   "author": "André Escobar <andreescobar.dev@gmail.com>",
   "type": "module",
   "scripts": {
-    "serve": "node index.js",
+    "start": "node index.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
-  "license": "ISC",
+  "license": "MIT",
   "jest": {
     "verbose": true,
     "transform": {},
@@ -18,5 +18,7 @@
   "devDependencies": {
     "jest": "^29.3.1"
   },
-  "dependencies": {}
+  "bugs": {
+    "url": "https://github.com/escobarAndre/Premium-minds-challenge/issues"
+  }
 }
