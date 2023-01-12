@@ -1,5 +1,4 @@
 # Challenge to premiun minds opportunity 
-___
 
 ## Desafio Pokemon: Pegue-os Todos
 O Ash está pegando pokemons em um mundo que consiste em uma grade bidimensional infinita de casas. Em cada casa há exatamente um pokemon.
